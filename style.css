@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins", "sens-serif";
+}
+.design{
+    background-color: #0369A1;
+    width: 65%;
+    height: 1000px;
+    background: repeating-linear-gradient( -45deg, #0369A1 0px, #000 5px, #0369A1 6px, #000 11px, #0369A1 12px);
+}
+.wrapper{
+    display: flex;
+}
+p{
+    color: 	#5A5A5A;
+}
+
+#caption{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    max-width: 30ch;
+    text-align: left;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+.mask{
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 442px;
+    left: 56px;
+    width: 970px;
+    height: 600px;
+}
+
+.mask1{
+    position: fixed;
+    top: 442px;
+    left: 56px;
+    border: 5px solid #FFFFFF;
+    width: 785px;
+    height: 300px;
+}
+.btn{
+    position: fixed;
+    top: 320px;
+    left: 190px;
+    background-color: #000000;
+    padding: 24px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+#btn1{
+    color:#FFFFFF;
+}
+.btn2{
+    margin: 50px 0 0 50px;
+}
+.user{
+    width: 50%;
+    height: 1000px;
+    text-align: center;
+}
+.select{
+    width:462px;
+    height:58px;
+    border: 1.7px ridge;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-floating{
+    width:462px;
+    margin: auto;
+}
+
+.hr-lines{
+    max-width: 462px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.hr-lines:before{
+    content:" ";
+    height: 1.5px;
+    width: 180px;
+    background: red;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.hr-lines:after{
+    content:" ";
+    height: 1.5px;
+    width: 180px;
+    background: red;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
